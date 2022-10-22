@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9746f3c0-b6ad-4baf-b2f9-e095a6153e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{46996f1c-e99d-41d8-a58f-ad46eef22194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dvdnav">
+      <UniqueIdentifier>{3fe181cb-0167-41c7-8c42-03b837b4a7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\vm">
+      <UniqueIdentifier>{3041e90a-121b-454c-8656-0417a17940f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\vm">
+      <UniqueIdentifier>{99656f4b-5eac-495f-9892-14472ed34852}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\dvdnav\dvd_types.h">
+      <Filter>include\dvdnav</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdnav\dvdnav.h">
+      <Filter>include\dvdnav</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdnav\dvdnav_events.h">
+      <Filter>include\dvdnav</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vm\decoder.h">
+      <Filter>include\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vm\getset.h">
+      <Filter>include\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vm\play.h">
+      <Filter>include\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vm\vm.h">
+      <Filter>include\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vm\vmcmd.h">
+      <Filter>include\vm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dvdnav_internal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\logger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\read_cache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\vm\decoder.c">
+      <Filter>src\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vm\getset.c">
+      <Filter>src\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vm\play.c">
+      <Filter>src\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vm\vm.c">
+      <Filter>src\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vm\vmcmd.c">
+      <Filter>src\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vm\vmget.c">
+      <Filter>src\vm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dvdnav.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\highlight.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logger.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\navigation.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\read_cache.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\searching.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
